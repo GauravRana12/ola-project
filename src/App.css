@@ -1,0 +1,193 @@
+/* Nav CSS Start */
+.navBody{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 139px;
+}
+.navS{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    gap: 64px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navS>a{
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navE{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 27px;
+}
+.navE>button{
+    cursor: pointer;
+}
+
+.ham{
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+    border: 0;
+}
+.BookOla{
+    background: rgba(255, 255, 255, 0.17);
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 14px;
+}
+/* Nav CSS End */
+/* Banner CSS Start */
+.bannerC>img{
+    width: 100%;
+    height: 420px;
+}
+.bannerC{
+    height: 480px;
+}
+
+.bannerC>span{
+    position: relative;
+    font-size: 48px;
+    color: white;
+    bottom: 290px;
+    left: 350px;
+    font-weight:600;
+}
+.scooter>img{
+    cursor: pointer;
+    width: 70%;
+}
+.scooter{
+    display: flex;
+    justify-content: center;
+}
+/* Banner CSS End */
+/* Comm CSS Start */
+.mobility{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 
+    1px 1px 0 rgba(0, 255, 0, 0.7), 
+   -1px 1px 0 rgba(0, 255, 0, 0.7), 
+    1px -1px 0 rgba(0, 255, 0, 0.7), 
+   -1px -1px 0 rgba(0, 255, 0, 0.7);
+   margin-bottom: 75px;
+}
+.Com{
+    margin-top: 100px;
+}
+.ComGrid{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+}
+.firstG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.firstG>img{
+    width: 140px;
+    height: 140px;
+}
+.firstG>h2{
+    font-weight: 700px;
+    font-size: 36px;
+    margin-top: -15px;
+}
+.firstG>h3{
+    font-size: 28px;
+    margin-top: -21px;
+    font-weight: 500;
+}
+.firstG>h4{
+    color: grey;
+    font-weight: 500;
+    margin-top: -5px;
+}
+/* Com End */
+/* Ride CSS Start */
+.ride{
+    display: flex;
+    flex-direction: column;
+        margin-right: 14%;
+        margin-left: 14%;
+        margin-top: 8%;
+}
+.rideh1>h1{
+    font-size: 38px;
+    text-shadow: 
+    1px 1px 0 rgba(0, 255, 0, 0.7), 
+   -1px 1px 0 rgba(0, 255, 0, 0.7), 
+    1px -1px 0 rgba(0, 255, 0, 0.7), 
+   -1px -1px 0 rgba(0, 255, 0, 0.7);
+   margin-bottom: 75px;
+}
+.busGrids{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+}
+.bus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bus{
+    width: 302px;
+}
+.bus>img{
+    width: 302px;
+    height: 222px;
+}
+.bus>p{
+    margin: 0;
+    color: #5f5f5f;
+    font-weight: 500;
+}
+.Video{
+    margin-top: 150px;
+    display: flex;
+}
+.gif>img{
+   width: 73%;
+}
+.gifStext>h1{
+    padding-top: 59px;
+    font-size: 40px;
+    text-shadow: 
+    1px 1px 0 rgba(0, 255, 0, 0.7), 
+   -1px 1px 0 rgba(0, 255, 0, 0.7), 
+    1px -1px 0 rgba(0, 255, 0, 0.7), 
+   -1px -1px 0 rgba(0, 255, 0, 0.7);
+}
+.gifStext>div>h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.gifStext>div{
+    width: 391px;
+}
+.gifStext>div>p{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.gifStext>div{
+    border-left: 3px solid green;
+}
