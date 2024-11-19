@@ -77,11 +77,7 @@
 .mobility{
     text-align: center;
     font-size: 22px;
-    text-shadow: 
-    1px 1px 0 rgba(0, 255, 0, 0.7), 
-   -1px 1px 0 rgba(0, 255, 0, 0.7), 
-    1px -1px 0 rgba(0, 255, 0, 0.7), 
-   -1px -1px 0 rgba(0, 255, 0, 0.7);
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
    margin-bottom: 75px;
 }
 .Com{
@@ -129,16 +125,12 @@
 }
 .rideh1>h1{
     font-size: 38px;
-    text-shadow: 
-    1px 1px 0 rgba(0, 255, 0, 0.7), 
-   -1px 1px 0 rgba(0, 255, 0, 0.7), 
-    1px -1px 0 rgba(0, 255, 0, 0.7), 
-   -1px -1px 0 rgba(0, 255, 0, 0.7);
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
    margin-bottom: 75px;
 }
 .busGrids{
     display: flex;
-    justify-content: center;
+    
     gap: 9%;
 }
 .bus{
@@ -161,6 +153,8 @@
 .Video{
     margin-top: 150px;
     display: flex;
+    justify-content: center;
+    gap: 9%;
 }
 .gif>img{
    width: 73%;
@@ -168,11 +162,7 @@
 .gifStext>h1{
     padding-top: 59px;
     font-size: 40px;
-    text-shadow: 
-    1px 1px 0 rgba(0, 255, 0, 0.7), 
-   -1px 1px 0 rgba(0, 255, 0, 0.7), 
-    1px -1px 0 rgba(0, 255, 0, 0.7), 
-   -1px -1px 0 rgba(0, 255, 0, 0.7);
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
 }
 .gifStext>div>h3{
     font-size: 25px;
@@ -191,3 +181,65 @@
 .gifStext>div{
     border-left: 3px solid green;
 }
+/* Ride CSS End */
+/* Postpaid CSS Start */
+.postpaid{
+    background: rgb(242, 246, 232);
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 2%;
+}
+.postpaid>h1{
+    font-size: 48px;
+    line-height: 48px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    margin-bottom: 55px;
+}
+.postImg>img{
+    width: 592;
+    height: 351px;
+}
+.postpaidM{
+    display: flex;
+    gap: 6%;
+}
+.users>p:nth-child(1){
+    font-size: 25px;
+    margin: 0;
+}
+.users>p:nth-child(2){
+    font-weight: 600;
+    font-size: 22px;
+}
+.users>p>span{
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    color: #16AA51;
+    background: rgba(22, 170, 81, 0.1);
+}
+.users>div>div{
+    display: flex;
+    align-items: center;
+}
+.users>div:nth-child(2){
+    display: block;
+}
+.users>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.users>div>div:nth-child(2){
+    margin-left: 25px;
+}
+
+
+.imglogo{
+    width: 54px;
+    overflow: hidden;
+}
+.flaticon{
+    width: 39px;
+}
+/* Postpaid CSS End */
