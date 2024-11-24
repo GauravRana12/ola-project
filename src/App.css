@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-around;
     padding: 20px 139px;
+    position: fixed;
+    width: 84%;
 }
 .navS{
     width: 50%;
@@ -198,6 +200,7 @@
 .postImg>img{
     width: 592;
     height: 351px;
+    border-radius: 20px;
 }
 .postpaidM{
     display: flex;
@@ -245,12 +248,13 @@
 .Ins{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .Ins>div:nth-child(2)>img{
     width: 188;
     height: 186px;
-    border-radius: 35px;
+    border-radius: 20px;
 }
 .Ins>div:nth-child(2){
     display: flex;
@@ -274,3 +278,110 @@
     margin-top: 56px;
 }
 /* Postpaid CSS End */
+/* Diff CSS Start */
+.mainDiff{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.mainDiff>h1{
+    font-size: 48px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+.mainDiff>div>p{
+    width: 48%;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.Diff1{
+    display: flex;
+    gap: 7%;
+    margin-bottom:20px
+}
+.Diff1>div{
+    width: 150px;
+}
+.Diff1>div>p{
+    font-size: 15px;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.Diff1>div>h3{
+    font-size: 23px;
+    margin: 0;
+    font-weight: 600;
+}
+.Diff2>div:nth-child(1){
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.Diff2>div:nth-child(1)>img{
+    width: 560px;
+    height: 277px;
+}
+.Diff2{
+    display: flex;
+    gap: 14px;
+}
+.Diff2>div:nth-child(2){
+    width: 547px;
+    height: 569px;
+ }
+ .Diff2>div:nth-child(2)>img{
+    width: 100%;
+ }
+.mainDiff>h3{
+    color: #16AA51;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Css End */
+/* Food CSS Start */
+.mainFood>h1{
+    font-size: 48px;
+    line-height: 48px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+.mainFood{
+    margin-left: 13%;
+    margin-top: 15%;
+    margin-right: 13%;
+}
+.Food1>h3{
+   font-size: 23px;
+   font-weight: 400;
+   margin-top: 0;
+}
+.Food1>p{
+    font-size: 23px;
+    font-weight: 500;
+}
+.Food1>h4{
+    color: #16AA51;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.Food1{
+    margin-top: 75px;
+}
+.mainFood>div{
+    display: flex;
+    gap: 18%;
+}
+.Food2{
+    display: flex;
+    gap: 9%;
+    margin-top: 75px;
+}
+.Food2>img{
+    width: 188px;
+    height: 272px;
+}
+.mainFood>p{
+    text-align: end;
+    padding-right: 4%;
+    color: grey;
+    font-size: 14px;
+}
+/* Food End */
