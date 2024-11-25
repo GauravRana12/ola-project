@@ -376,6 +376,7 @@
 }
 .Food2>img{
     width: 188px;
+    border-radius: 20px;
     height: 272px;
 }
 .mainFood>p{
@@ -385,3 +386,77 @@
     font-size: 14px;
 }
 /* Food End */
+.mainBlogs>h1{
+    font-size: 48px;
+    line-height: 48px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+.mainBlogs{
+    background: rgb(242, 246, 232);
+    padding-left: 13%;
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-right: 13%;
+    padding-bottom: 5%;
+}
+.mainBlogs>div>div>img{
+    width: 358px;
+    height: 272px;
+    border-radius: 20px;
+}
+.mainBlogs>div>div{
+    margin-top: 75px;
+}
+.mainBlogs>div>div>p{
+    color: #16AA51;
+    font-size: 15px;
+    font-weight: 700;
+}
+.mainBlogs>div>div>h3{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+}
+.mainBlogs>div{
+    display: flex;
+    gap: 50px;
+}
+/* End */
+/* Download CSS Start */
+.mainDown>h1{
+    font-size: 48px;
+    line-height: 48px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+.mainDown{
+    margin: 8% 13% 4% 13%;
+}
+.Down1{
+ display: flex;  
+ gap: 80px;
+ margin-top: 75px;
+}
+.Down1>div{
+    padding: 32px;
+    background: radial-gradient(100% 100% at 28.66% 0%, #F9FCF4 0%, #E0E6D8 100%); 
+    width: 320px;
+    height: 275px;
+    cursor: pointer;
+}
+.Down1>div>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 103px;
+}
+.Down1>div>p{
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, .64);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.Down1>div:nth-child(2)>img{
+    border-radius: 20px;
+}

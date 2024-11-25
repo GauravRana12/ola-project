@@ -6,6 +6,8 @@ import Ride from '../Components/Ride'
 import Postpaid from '../Components/Postpaid'
 import Diff from '../Components/Diff'
 import Food from '../Components/Food'
+import Blogs from '../Components/Blogs'
+import Download from '../Components/Download'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Postpaid />
         <Diff />
         <Food />
+        <Blogs />
+        <Download />
     </div>
   )
 }
