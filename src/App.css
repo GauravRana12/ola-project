@@ -460,3 +460,26 @@
 .Down1>div:nth-child(2)>img{
     border-radius: 20px;
 }
+/* CSS ENd */
+/* Footer CSS */
+.mainFoot{
+    padding:5% 13% 4% 15%;
+    display: flex;
+    background: rgb(242, 246, 232);
+    justify-content: start;
+    gap: 9%;
+    margin-top: 150px;
+
+}
+.Footlogos{
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+}
+.FooterP{
+    width: 95px;
+}
+.FooterP>p{
+    font-size: 15px;
+    font-weight: 500;
+}

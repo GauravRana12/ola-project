@@ -8,6 +8,7 @@ import Diff from '../Components/Diff'
 import Food from '../Components/Food'
 import Blogs from '../Components/Blogs'
 import Download from '../Components/Download'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Food />
         <Blogs />
         <Download />
+        <Footer />
     </div>
   )
 }
